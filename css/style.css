@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+}
+
+header {
+  background-color: #fff0f3;
+  justify-content: space-between;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 40px;
+  align-items: center;
+  height: 80px;
+}
+
+.logo {
+  font-size: xx-large;
+  font-weight: bold;
+  color: rgb(113, 83, 232);
+  text-decoration: none;
+  font-family: "Winky Sans", sans-serif;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 20rem;
+  font-size: large;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links li a {
+  text-decoration: none;
+}
+
+.booking-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.booking-container {
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  gap: 15px;
+  max-width: 1200px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.booking-item {
+  display: flex;
+  align-items: center;
+  background: #f5f5f5;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.booking-item i {
+  margin-right: 10px;
+}
+
+.booking-item input,
+.booking-item select {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  font-size: 16px;
+}
+
+.book-btn {
+  background: #ff6600;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.book-btn:hover {
+  background: #ff4d00;
+}
+
+.hero-section {
+  gap: 15px;
+  max-width: 1200px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-container {
+  width: 50%;
+  margin-top: 6rem;
+}
+
+.hero-text {
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(113, 83, 232);
+  text-decoration: none;
+  font-family: "Winky Sans", sans-serif;
+}
+
+.hero-description {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 20px;
+}
+
+.hero-btn {
+  background: #ff6600;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.travelling {
+  height: 30rem;
+}
+
+footer p {
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #e7e6e6;
+}
+
+footer {
+  background: #f5f5f5;
+  margin-top: 20px;
+}
